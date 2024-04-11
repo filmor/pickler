@@ -1,0 +1,14 @@
+{application, pickler, [
+    {description, "Python Pickle Conversion Library"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, [pickler]},
+
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.

@@ -1,0 +1,15 @@
+[package]
+name = "pickler"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "pickler"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = { version = "0.32.1", features = ["serde"] }
+serde-pickle = "1"
+serde-transcode = "1"
+serde = "1"
